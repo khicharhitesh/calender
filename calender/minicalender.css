@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+   
+
+}
+.year{
+    margin-bottom: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(30, 41, 57);
+
+}
+#month{
+    background-color:red;
+    margin:0px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+.var{
+    font-size: 20px;
+    font-weight: 700;
+}
